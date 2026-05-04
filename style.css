@@ -1,32 +1,40 @@
+/* General syles */
 * {
   margin: 0;
   padding: 0;
+
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
+
+/* General page style */
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  /* https://grabient.com/HQNgnArANKBMAcMIgCw1gRhDD8DM6GawA7AAxgwpkHDIboklInTAph5A?style=linearSwatches&angle=45 */
-
-  background: linear-gradient(45deg, #a87759 0.000%, #a87759 16.667%, #818665 calc(16.667% + 1px), #818665 33.333%, #7e9c85 calc(33.333% + 1px), #7e9c85 50.000%, #a1b3aa calc(50.000% + 1px), #a1b3aa 66.667%, #d0c5c3 calc(66.667% + 1px), #d0c5c3 83.333%, #e8cec3 calc(83.333% + 1px) 100.000%);
-
   min-height: 100vh;
+
+  /* https://grabient.com/HQNgnArANKBMAcMIgCw1gRhDD8DM6GawA7AAxgwpkHDIboklInTAph5A?style=linearSwatches&angle=45 */
+  background: linear-gradient(45deg, #a87759 0.000%, #a87759 16.667%, #818665 calc(16.667% + 1px), #818665 33.333%, #7e9c85 calc(33.333% + 1px), #7e9c85 50.000%, #a1b3aa calc(50.000% + 1px), #a1b3aa 66.667%, #d0c5c3 calc(66.667% + 1px), #d0c5c3 83.333%, #e8cec3 calc(83.333% + 1px) 100.000%);
 }
 
+
+/* Heading */
 h1 {
+  margin: 40px;
+
   font-family: "Diplomata", serif;
   font-weight: 400;
   font-size: 40px;
   font-style: normal;
-  margin: 40px;
   color:  #f9a71a;
   text-shadow: 2px 2px 1px rgb(41, 23, 0);
 }
 
+
+/* Grid */
 .Container {
   width: 80%;
   max-width: 1600px;
@@ -39,12 +47,14 @@ h1 {
   margin-bottom: 20px;
 }
 
+
+/* Card styling */
 .Card{
-  aspect-ratio: 4/3;
-  background-color:  #4A4A4A;
   display: flex;
   flex-direction: column;
+  aspect-ratio: 4/3;
 
+  background-color:  #4A4A4A;
   border-radius: 10px;
   overflow: hidden;
   border-bottom: solid 7px #2a2a2a;
@@ -71,15 +81,16 @@ h1 {
 }
 
 .CardContent {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .CardTitle {
+  padding: 0 10px;
+  
   text-align: center;
   color:#D0C5C3;
   font-size: 23px;
-  padding: 0 10px;
 }
