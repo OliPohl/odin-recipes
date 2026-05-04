@@ -14,6 +14,14 @@
 
 ---
 
+## 🖼️ Result
+
+A quick preview of the Recipes end result
+
+![GIF of finished webpage](demo.gif)
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License**. You are free to:
