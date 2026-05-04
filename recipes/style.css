@@ -14,11 +14,46 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  /* https://grabient.com/HQJgjAnANMEBzWAVgMwppA7DTKAsMEYAbBktqGBSHHFCMsQSskgAxR7CZhxA?style=angularSwatches&angle=45 */
+.FrenchBackground {
+    /* https://grabient.com/HQJgjAnANMEBzWAVgMwppA7DTKAsMEYAbBktqGBSHHFCMsQSskgAxR7CZhxA?style=angularSwatches&angle=45 */
 
 background: conic-gradient(from 45deg, #0a4a59 0.000deg, #0a4a59 27.692deg, #0b527c calc(27.692deg + 0.1deg), #0b527c 55.385deg, #0d5c9f calc(55.385deg + 0.1deg), #0d5c9f 83.077deg, #1068c2 calc(83.077deg + 0.1deg), #1068c2 110.769deg, #1276e3 calc(110.769deg + 0.1deg), #1276e3 138.462deg, #1585ff calc(138.462deg + 0.1deg), #1585ff 166.154deg, #1896ff calc(166.154deg + 0.1deg), #1896ff 193.846deg, #1ca9ff calc(193.846deg + 0.1deg), #1ca9ff 221.538deg, #1fbcff calc(221.538deg + 0.1deg), #1fbcff 249.231deg, #23d1ff calc(249.231deg + 0.1deg), #23d1ff 276.923deg, #27e6ff calc(276.923deg + 0.1deg), #27e6ff 304.615deg, #2bfbff calc(304.615deg + 0.1deg), #2bfbff 332.308deg, #2fffff calc(332.308deg + 0.1deg) 360.000deg);
 }
+
+.JacobBackground {
+/* https://grabient.com/HQVgTAjANMCcAcsYBZZLiA7DTA2bwkAzDAAwQgwSbJViW7DymkwjK5TLC4dA?style=linearSwatches&angle=135 */
+
+background: linear-gradient(135deg, #d0415e 0.000%, #d0415e 20.000%, #d65767 calc(20.000% + 1px), #d65767 40.000%, #db7971 calc(40.000% + 1px), #db7971 60.000%, #e0a57c calc(60.000% + 1px), #e0a57c 80.000%, #e6d886 calc(80.000% + 1px) 100.000%);
+}
+
+.HungerBackground {
+/* https://grabient.com/HQZhDYBpgFgdjtEMCcSCM6kAZvQEziKwxSxwjQCsuB2Ww+Iaj6M0MAHFZOsNuHZ98MdtiA */
+
+background: linear-gradient(90deg, #ebfbe5 0.000%, #a4b8a3 25.000%, #7ea68d 50.000%, #93d3b6 75.000%, #d4fffa 100.000%);
+}
+
+.PatrickBackground {
+/* https://grabient.com/HQNgDAjANMCsDsBOGAWFzgGZMYEzxBghXlU0NBGmDVOEXlygmDCqkzjAA5VcxmcXChghusKAFowwCLDBA */
+
+background: linear-gradient(90deg, #ffffba 0.000%, #ffffae 16.667%, #ffffa6 33.333%, #ffffa5 50.000%, #ffffa9 66.667%, #ffe5b2 83.333%, #ffb8c0 100.000%);
+}
+
+
+.VeganBackground {
+/* https://grabient.com/HQZgnArANMAsGxiADANhgRjBmAmZAHJrCDAVjAOwGLBiq2XZWy4yr1A?style=angularGradient&angle=225 */
+
+background: conic-gradient(from 225deg, #717142 0.000deg, #909965 60.000deg, #92a972 120.000deg, #74975e 180.000deg, #4b6f3b 240.000deg, #354a2a 300.000deg, #3f3f3a 360.000deg);
+}
+
+.BriarBackground {
+/* https://grabient.com/IwOgDBA0ICzGkBMIBsYDskEgKwE5glw8AOaGdMkAZhhmnnuxWB2hzBiA?angle=135 */
+
+background: linear-gradient(135deg, #ff0082 0.000%, #ff2c88 20.000%, #ff6b98 40.000%, #ffaab0 60.000%, #ffddd0 80.000%, #fffaf8 100.000%);
+}
+
+
 
 .Content {
   max-width: 1200px;
@@ -37,7 +72,6 @@ h1 {
   font-weight: 400;
   font-size: 40px;
   font-style: normal;
-  color:  #84ff00;
   text-shadow: 2px 2px 1px rgb(0, 41, 41);
 }
 
@@ -61,13 +95,58 @@ img {
 
 h2 {
   margin-top: 20px;
+}
+
+.French h2, .French h1 {
   color:#84ff00;
+}
+
+.Jacob h2, .Jacob h1 {
+  color:#00e5ff;
+}
+
+.Hunger h2, .Hunger h1 {
+  color:#fff269;
+}
+
+.Patrick h2, .Patrick h1 {
+  color:#ff3456;
+}
+
+.Vegan h2, .Vegan h1 {
+  color:#1a9d00;
+}
+
+.Briar h2, .Briar h1 {
+  color:#ff00ee;
 }
 
 
 /* Button from https://cssgradient.io/gradient-backgrounds/ */
-.btn-grad {
+.French .btn-grad {
   background-image: linear-gradient(to right, #21801a 0%, #26d048 51%, #1a8021 100%);
+}
+
+.Jacob .btn-grad {
+  background-image: linear-gradient(to right, #1a5780 0%, #2642d0 51%, #1a5980 100%);
+}
+
+.Hunger .btn-grad {
+  background-image: linear-gradient(to right, #6c801a 0%, #d0c226 51%, #807b1a 100%);
+}
+
+
+.Patrick .btn-grad {
+  background-image: linear-gradient(to right, #ff2929 0%, #d02656 51%, #801a4d 100%);
+}
+
+.Vegan .btn-grad {
+  background-image: linear-gradient(to right, #21801a 0%, #26d048 51%, #1a8021 100%);
+}
+
+
+.Briar .btn-grad {
+  background-image: linear-gradient(to right, #a529c8 0%, #dc43ff 51%, #dc17ff 100%);
 }
 
 .btn-grad {
@@ -91,4 +170,52 @@ h2 {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+/* The "Blink" Animation */
+@keyframes glitter {
+  0%, 100% { 
+    opacity: 0; 
+    transform: scale(0.5) rotate(0deg); 
+  }
+  50% { 
+    opacity: 1; 
+    transform: scale(1.2) rotate(15deg); 
+    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffb6c1;
+  }
+}
+
+.sparkle {
+  position: absolute;
+  font-size: 20px;
+  animation: glitter 1.5s infinite ease-in-out;
+}
+
+/* Row 1 */
+.s1 { top: 12%; left: 15%; animation-delay: 0s; }
+.s2 { top: 45%; left: 85%; animation-delay: 0.5s; font-size: 30px; }
+.s3 { top: 75%; left: 25%; animation-delay: 1.2s; }
+
+/* Row 2 */
+.s4 { top: 5%; left: 60%; animation-delay: 0.3s; font-size: 25px; }
+.s5 { top: 55%; left: 10%; animation-delay: 0.8s; }
+.s6 { top: 85%; left: 70%; animation-delay: 1.5s; font-size: 35px; }
+
+/* Row 3 */
+.s7 { top: 25%; left: 40%; animation-delay: 0.1s; }
+.s8 { top: 65%; left: 90%; animation-delay: 0.4s; font-size: 28px; }
+.s9 { top: 35%; left: 5%; animation-delay: 1.1s; }
+
+/* Row 4 */
+.s10 { top: 90%; left: 45%; animation-delay: 0.6s; font-size: 22px; }
+.s11 { top: 15%; left: 80%; animation-delay: 0.9s; }
+.s12 { top: 40%; left: 50%; animation-delay: 1.4s; font-size: 32px; }
+
+.sparkle-container {
+  position: fixed;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  background: #00000000; /* Dark background makes the glow pop */
+  overflow: hidden;
 }
