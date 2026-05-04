@@ -37,7 +37,7 @@ h1 {
 /* Grid */
 .Container {
   width: 80%;
-  max-width: 1600px;
+  max-width: 1200px;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
